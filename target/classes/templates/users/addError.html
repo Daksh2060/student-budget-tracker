@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting...</title>
+</head>
+<body>
+    <p>Username or Email is already taken. You will be redirected in <span id="counter">3</span> seconds...</p>
+
+    <script>
+        var seconds = 3;
+        var counterElement = document.getElementById('counter');
+
+        function updateCountdown() {
+            seconds--;
+            counterElement.textContent = seconds;
+            if (seconds <= 0) {
+                window.location.href = '/login';
+            }
+        }
+
+        setInterval(updateCountdown, 1000);
+    </script>
+</body>
+</html>

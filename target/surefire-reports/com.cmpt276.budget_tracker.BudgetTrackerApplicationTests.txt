@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cmpt276.budget_tracker.BudgetTrackerApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.13 s - in com.cmpt276.budget_tracker.BudgetTrackerApplicationTests
